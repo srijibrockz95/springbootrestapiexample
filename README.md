@@ -50,8 +50,7 @@ To update a particular record:
 curl -H 'Content-Type: application/json' -X PUT -d '{"name":"aadfadf", "designation":"gfdhfdgf", "expertise":"11"}' http://localhost:8080/company/employees/1
 
 To delete a particular record:
-curl -X DELETE http://localhost:8080/company/employees
-
+curl -X DELETE http://localhost:8080/company/employees/1
 
 
 ##### Thank you.
