@@ -1,16 +1,5 @@
 # springbootrestapiexample
 
-
-  .   ____          _            __ _ _
- /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
- \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-  '  |____| .__|_| |_|_| |_\__, | / / / /
- =========|_|==============|___/=/_/_/_/
- :: Spring Boot ::        (v1.5.4.RELEASE)
-
-
-
 ## A small java application showing Spring Boot, MySQL, JPA, Hibernate Restful CRUD API
 
 #### The Spring Framework is an application framework and inversion of control container for the Java platform. 
