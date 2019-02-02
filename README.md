@@ -17,19 +17,19 @@
 #### 4. Hibernate ORM is an object-relational mapping tool for the Java programming language. 
 #### It provides a framework for mapping an object-oriented domain model to a relational database.
 
-#### Pre-requisites of this application to run:
+#### Pre-requisites to run this application:
 ##### Go to /springbootrestapiexample/src/main/resources/application.properties file and change the following parameters:
 
-spring.datasource.url=
-spring.datasource.username=
-spring.datasource.password=
+spring.datasource.url= /
+spring.datasource.username= /
+spring.datasource.password= 
 
 
 #### Steps to execute this Service and expose the Restful CRUD API for Employees (an example taken to enter Employee records):
 I. Right Click on this Git cloned Maven project --> click Run As --> Maven clean (target folder having 
 deployment file (springbootrestapiexample.war) gets deleted)
 
-<<Do your code changes if any>>
+<<---Do your neccessary code changes if any--->>
 
 II. Right Click on this Git cloned Maven project --> click Run As --> Maven build
 
