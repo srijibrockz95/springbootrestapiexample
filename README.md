@@ -20,8 +20,8 @@
 #### Pre-requisites to run this application:
 ##### Go to /springbootrestapiexample/src/main/resources/application.properties file and change the following parameters:
 
-spring.datasource.url= /
-spring.datasource.username= /
+spring.datasource.url= <br />
+spring.datasource.username= <br />
 spring.datasource.password= 
 
 
