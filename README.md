@@ -1,5 +1,16 @@
 # springbootrestapiexample
 
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.4.RELEASE)
+
+
+
 ## A small java application showing Spring Boot, MySQL, JPA, Hibernate Restful CRUD API
 
 #### The Spring Framework is an application framework and inversion of control container for the Java platform. 
@@ -26,8 +37,7 @@ spring.datasource.password=
 
 
 #### Steps to execute this Service and expose the Restful CRUD API for Employees (an example taken to enter Employee records):
-I. Right Click on this Git cloned Maven project --> click Run As --> Maven clean (target folder having 
-deployment file (springbootrestapiexample.war) gets deleted)
+I. Right Click on this Git cloned Maven project --> click Run As --> Maven clean (optional, deployment target folder gets removed)
 
 <<---Do your neccessary code changes if any--->>
 
@@ -35,6 +45,26 @@ II. Right Click on this Git cloned Maven project --> click Run As --> Maven buil
 
 III. springbootrestapiexample --> src/main/java --> com.letsstartcoding.springbootrestapiexample 
                                                        --> Right Click on EmployeeApplication.java --> Click Run As --> Java Application
+
+
+Browse or use Postman client or curl(if in Unix):
+
+To insert a particular record:
+curl -H 'Content-Type: application/json' -X POST -d '{"name":"", "designation":"", "expertise":""}' http://localhost:8080/company/employees
+
+To fetch all employees data:
+curl -X GET http://localhost:8080/company/employees
+
+To fetch a particular data:
+curl -X GET http://localhost:8080/company/notes/1
+
+To update a particular record:
+curl -H 'Content-Type: application/json' -X PUT -d '{"name":"", "designation":"", "expertise":""}' http://localhost:8080/company/employees/1
+
+To delete a particular record:
+curl -X DELETE http://localhost:8080/company/employees
+
+
 
 
 Thank you.
