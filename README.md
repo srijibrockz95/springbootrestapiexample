@@ -35,11 +35,10 @@ II. Right Click on this Git cloned Maven project --> click Run As --> Maven buil
 III. springbootrestapiexample --> src/main/java --> com.letsstartcoding.springbootrestapiexample 
                                                        --> Right Click on EmployeeApplication.java --> Click Run As --> Java Application
 
-
-Browse or use Postman client or curl(if in Unix):
+#### Browse or use Postman client or curl(if in Unix):
 
 To insert a particular record:
-curl -H 'Content-Type: application/json' -X POST -d '{"name":"", "designation":"", "expertise":""}' http://localhost:8080/company/employees
+curl -H 'Content-Type: application/json' -X POST -d '{"name":"fjhdkjkj", "designation":"dfadfadf", "expertise":"12"}' http://localhost:8080/company/employees
 
 To fetch all employees data:
 curl -X GET http://localhost:8080/company/employees
@@ -48,12 +47,11 @@ To fetch a particular data:
 curl -X GET http://localhost:8080/company/notes/1
 
 To update a particular record:
-curl -H 'Content-Type: application/json' -X PUT -d '{"name":"", "designation":"", "expertise":""}' http://localhost:8080/company/employees/1
+curl -H 'Content-Type: application/json' -X PUT -d '{"name":"aadfadf", "designation":"gfdhfdgf", "expertise":"11"}' http://localhost:8080/company/employees/1
 
 To delete a particular record:
 curl -X DELETE http://localhost:8080/company/employees
 
 
 
-
-Thank you.
+##### Thank you.
