@@ -11,7 +11,7 @@
 
 #### 2. MySQL database as backend
 
-#### JPA - The Java Persistence API is a Java application programming interface specification that describes 
+#### 3. JPA - The Java Persistence API is a Java application programming interface specification that describes 
 #### the management of relational data in applications using Java Platform, Standard Edition and Java Platform, Enterprise Edition.
 
 #### 4. Hibernate ORM is an object-relational mapping tool for the Java programming language. 
