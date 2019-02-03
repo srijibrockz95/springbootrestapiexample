@@ -30,7 +30,7 @@ I. Right Click on this Git cloned Maven project --> click Run As --> Maven clean
 
 <<---Do your neccessary code changes if any--->>
 
-II. Right Click on this Git cloned Maven project --> click Run As --> Maven build
+II. Right Click on this Git cloned Maven project --> click Run As --> Maven build --> (Goals: clean install --> Apply --> Run) needs to be configured for 1st time. 
 
 III. springbootrestapiexample --> src/main/java --> com.letsstartcoding.springbootrestapiexample 
                                                        --> Right Click on EmployeeApplication.java --> Click Run As --> Java Application
